@@ -18,8 +18,6 @@ function onSubmit(e){
     else{
         const li = document.createElement('li');
         li.appendChild(document.createTextNode(` ${nameInput.value} : ${emailInput.value}`));
-        // localStorage.setItem("userName",nameInput.value);
-        // localStorage.setItem("emailId",emailInput.value);
         let myObj = {
             userName: nameInput.value,
             emailId: emailInput.value
@@ -28,10 +26,8 @@ function onSubmit(e){
         localStorage.setItem("myObj", myObj_serialized);
         let myObj_deserialized = JSON.parse(localStorage.getItem("myObj"));
         console.log(myObj_deserialized);
-        // userList.appendChild(li);
+        userList.appendChild(li);
         nameInput.value = '';
         emailInput.value = '';
     }
 }
-
-
