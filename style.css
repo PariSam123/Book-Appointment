@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+
+header{
+    background-color: rgba(208, 204, 204, 0.8);
+    padding: 15px;
+}
+.container{
+    background: rgba(208, 204, 204, 0.8);
+    margin: auto;
+    margin-top: 90px;
+    width: 500px;
+    overflow: auto;
+    padding: 3rem ;
+    
+}
+h1{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+#my-form{
+    
+    padding: 1rem;
+    /* background: rgba(208, 204, 204, 0.8); */
+}
+#my-form input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.btn{
+    padding: 8px;
+    width: 30%;
+    margin-top: 20px;
+    background-color: rgb(161, 161, 247);
+}
+ul{
+    list-style: none;
+}
+ul>li{
+    padding: 10px;
+    background: rgba(160, 158, 158, 0.8);
+    margin: 10px 0;
+}
+.bg-dark{
+    background: #333;
+    color: #fff;
+}
+.error{
+    color: red;
+}
